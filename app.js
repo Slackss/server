@@ -198,7 +198,7 @@ app.get("/sports", (req, res) => {
 
 
 app.get("/place", (req, res) => {
-    fs.readFile("place.json", (err, data) => {
+    fs.readFile("public/place.json", (err, data) => {
         res.send(JSON.parse(data));
     })
 })
