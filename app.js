@@ -10,7 +10,7 @@ const con = mysql.createConnection({
     password: '1111',
     database: 'slacks'
 });
-
+//slacks
 /*
     ==DB DATA==
 CREATE DATABASE SRinfra CHARACTER SET utf8 COLLATE utf8_general_ci;
